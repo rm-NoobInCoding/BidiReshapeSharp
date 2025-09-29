@@ -6,13 +6,26 @@
     <Nullable>enable</Nullable>
     <Title>Bidi Reshape Sharp</Title>
     <Authors>NoobInCoding</Authors>
-    <Description>A Library to Bidi and reshape arabic or persian texts</Description>
-    <PackageLicenseExpression>AGPL-3.0-only</PackageLicenseExpression>
+    <Description>A library to Bi-Directional and Reshape Arabic or Persian texts</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/rm-NoobInCoding/BidiReshapeSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rm-NoobInCoding/BidiReshapeSharp</RepositoryUrl>
+    <PackageTags>rtl support;bidirectional;arabic reshape;rtl;persian reshape</PackageTags>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="C:\Users\PCMOD\.nuget\packages\icu.net\3.0.1\contentFiles\any\any\icu.net.dll.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
