@@ -20,7 +20,8 @@
             }
             var reshaper = new Reshaper.ArabicReshaper(config);
             var reshapedText = reshaper.Reshape(text);
-            return Bidi.Bidi.GetDisplay(reshapedText);
+            return BidiSharp.Bidi.LogicalToVisual(reshapedText);
+
         }
 
         /// <summary>

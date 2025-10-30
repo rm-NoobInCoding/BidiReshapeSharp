@@ -95,4 +95,5 @@ public class Program
 
 ## Based on 
 Python Arabic Reshaper by mpcabd
-python-bidi by MeirKriheli
+
+BidiSharp by fsufyan
